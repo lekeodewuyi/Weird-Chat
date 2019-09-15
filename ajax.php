@@ -1,3 +1,4 @@
+<?php
 require "classes/DB.class.php";
 require "classes/Chat.class.php";
 require "classes/ChatBase.class.php";
@@ -58,3 +59,4 @@ try{
 catch(Exception $e){
     die(json_encode(array('error' => $e->getMessage())));
 }
+?>
